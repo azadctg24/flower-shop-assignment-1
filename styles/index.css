@@ -1,13 +1,23 @@
-/*header related style*/
+/*banner section*/
 .banner {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    pad: 30px 30px 30px 150px;
     width: 1920px;
     height: 850px;
     margin: auto;
     justify-content: space-around;
+}
+.hedline{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    width: 708px;
+}
+.hedline-hot{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800px;
 }
 
 .description {
@@ -27,9 +37,65 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
+    border: 0;
 }
 
 .pngwing {
     width: 635px;
     height: 800px;
+    padding: 30px 30px 0px 150px;
 }
+
+/*hot deals section*/
+.banner-hotdeal {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    pad: 30px 30px 30px 150px;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    padding: 43px 43px;
+}
+
+.primary {
+    color: #E55473;
+}
+
+.description-hotdeal {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+}
+.btn-primary-hotdeal {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+}
+.pngwing-hotdeal {
+    width: 318px;
+    height: 420px;
+}
+/*5th section-Istagram*/
