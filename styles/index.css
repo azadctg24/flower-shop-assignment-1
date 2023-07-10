@@ -50,7 +50,6 @@
 .banner-hotdeal {
     width: 1920px;
     height: 620px;
-    flex-shrink: 0;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
