@@ -12,6 +12,7 @@ body {
     height: 850px;
     margin: auto;
     justify-content: space-around;
+    
 
 }
 
@@ -62,10 +63,10 @@ body {
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     align-items: center;
-    pad: 30px 30px 0px 150px;
     margin: auto;
     justify-content: space-around;
     text-align: center;
+    
 
 }
 
@@ -131,6 +132,13 @@ body {
 }
 
 .column{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+.background-image{
     display: flex;
     gap: 24px;
     justify-content: center;
