@@ -118,6 +118,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    padding-top: 70px;
 
 }
 
@@ -129,10 +130,12 @@ body {
     margin: 20px 20px 20px 150px width: 594px;
 }
 
-.images-container {
+.column{
+    display: flex;
     gap: 24px;
-    padding: 30px
-    
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 25px;
 }
 
 /*Footer section*/
@@ -160,7 +163,7 @@ body {
 
 .shop-color {
     color: #FFFFFF;
-    
+
 }
 
 .description-footer {
